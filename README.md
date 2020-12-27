@@ -63,7 +63,7 @@ const dummyData = {
 }
 ```
 
-### ### POST: `localhost:3001/deleteVoucher`
+### POST: `localhost:3001/deleteVoucher`
 
 Deletes an eVoucher. Takes an ID as a request body.
 
@@ -73,7 +73,7 @@ const dummyData = {
 }
 ```
 
-POST: `localhost:3001/testCode`
+### POST: `localhost:3001/testCode`
 
 Tests a promocode. Returns whether it is valid or not depending on expiry date and whether or not it has been used.
 
