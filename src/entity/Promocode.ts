@@ -11,4 +11,10 @@ export class Promocode {
 
     @Column()
     eVoucherID: number;
+
+    @Column()
+    associatedNumber: string;
+    
+    @Column('boolean', {default: false})
+    isUsed: boolean;
 }

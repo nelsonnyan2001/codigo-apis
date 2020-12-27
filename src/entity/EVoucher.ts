@@ -30,6 +30,6 @@ export class EVoucher {
     @Column()
     buyType: string;
 
-    @Column()
+    @Column('boolean', {default: true})
     isValid: boolean;
 }
